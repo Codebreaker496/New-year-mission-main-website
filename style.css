@@ -1,0 +1,107 @@
+/* style.css */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-section{
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./resources/Banner\ Image.png);
+    background-size: cover; 
+
+}
+
+.banner-section h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner-section h1{
+    max-width: 632px;
+    color: #fff;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.offer-section{
+    margin: 120px 0; ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;   
+}
+
+.offer-section h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    color: #F00;
+}
+
+.offer-section p{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #F00;
+}
+
+.offer-section h2{
+    margin-top: -36px;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+}
+
+.venue-section{
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    border-radius: 16px;
+    
+}
+#venue-text h2{
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    gap: 10px;
+}
+#venue-text .venue{
+    font-family: 'Inter', sans-serif;
+    color: #F00;
+}
+
+button{
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background-color: #F00;
+    color: #fff;
+    border: none;
+}
