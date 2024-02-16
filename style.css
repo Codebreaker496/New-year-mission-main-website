@@ -72,6 +72,50 @@ html , body{
     color: #070211;
 }
 
+.party-banner{
+    width: 1320px;
+    height: 600px;
+    background-image: url(./resources/Vectorrr.png);
+    background-size: cover;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 126px;
+    
+}
+
+
+.party-text h1{
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;   
+}
+
+.party-text p{
+    color: #ffffff;
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.party-text button{
+    background-color: transparent;
+    padding: 0%;
+    margin: 0%;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+}
+
+.party-text button:hover{
+    color:#F00;
+    border-bottom: 2px solid #F00;
+}
+
 .venue-section{
     width: 1320px;
     height: 482px;
@@ -104,4 +148,10 @@ button{
     background-color: #F00;
     color: #fff;
     border: none;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #F00;
+    border: 1px solid #F00;
 }
