@@ -390,6 +390,10 @@ hr{
     font-weight: 500;
     gap: 600px;
 }
+
+.contacts h4 span{
+     margin-right: 10px;
+}
 .socials img{
     margin-right: 20px;
 }
