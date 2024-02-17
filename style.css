@@ -157,7 +157,86 @@ button:hover{
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
+/* Coming soon section */
+.coming-soon{
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 0;
+}
+.text-left h4{  
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.text-left h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.text-left p .text-right p{
+    font-size: 20px;
+    font-weight: 400;
+}
 
+.image img{
+    width: 460px;
+    padding: 50px;
+    border-radius:50%;
+    border: 15px solid #F00; ;
+}
+
+.text-right h2{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.text-right img{
+    margin-top: 43px;
+}
+/* Holiday Sale section */
+.sale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 120px;
+}
+
+.sale-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.sale-text h4{
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+.sale-text h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale-text h1 span{
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
 /* Portfolio section */
 .portfolio{
     margin-top: 120px;
